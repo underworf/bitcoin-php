@@ -24,11 +24,10 @@
   },
   "repositories": [
     {
-        "type": "vcs",
-        "url": "https://github.com/underworf/bitcoin-php.git"
+      "type": "vcs",
+      "url": "https://github.com/underworf/bitcoin-php.git"
     }
-]
-
+  ],
   "require": {
     "php-64bit": ">=7.0",
     "pleonasm/merkle-tree": "1.0.0",
