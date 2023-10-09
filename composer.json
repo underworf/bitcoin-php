@@ -22,11 +22,17 @@
       "BitWasp\\Bitcoin\\Tests\\": "tests/"
     }
   },
-    "config": {
-        "optimize-autoloader": true,
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/underworf/bitcoin-php.git"
+    }
+  ],
+  "config": {
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
     "php-64bit": ">=7.0",
     "pleonasm/merkle-tree": "1.0.0",
